@@ -4,3 +4,12 @@ instalacion de laravel cors
     Barryvdh\Cors\ServiceProvider::class, <<<-- config/app::providers 
     \Barryvdh\Cors\HandleCors::class, <<--
     documentacion :: https://github.com/barryvdh/laravel-cors
+
+    password grand tokens ::
+    https://laravel.com/docs/5.7/passport#password-grant-tokens
+
+    en caso de tener problemas con el ingreso al controlador api::
+    php artisan passport:install
+
+    crear clientes passport::
+    php artisan passport:client --password
