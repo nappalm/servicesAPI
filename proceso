@@ -1,0 +1,6 @@
+configuracion de passport documentacion
+instalacion de laravel cors
+    composer require barryvdh/laravel-cors
+    Barryvdh\Cors\ServiceProvider::class, <<<-- config/app::providers 
+    \Barryvdh\Cors\HandleCors::class, <<--
+    documentacion :: https://github.com/barryvdh/laravel-cors
